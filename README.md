@@ -39,7 +39,7 @@ python PCA/pca.py
 
 or 
 
-./dblsh deep1m 1.2 100 1 10 0.08 0.03 ./../dataset/TrainedW/linear_10_pca_deep1M_10000/
+./dblsh deep1m 1.5 100 1 15 0.08 0.012 ./../dataset/TrainedW/linear_pca_deep1m/
 ```
 
 Where the excutable files (e.g., pmlsh or dblsh) can be obtained according to the README.md in the corresponding directory (e.g., distribution-aware-LSH/PM-LSH/README.md), and the parameter (i.e., ../dataset/TrainedW/linear_pca_deep1m.bin) is the path that indicates the trained $W$ by PCA. Moreover, the meaning of the other paramters can also be found in the corresponding README.md. 
