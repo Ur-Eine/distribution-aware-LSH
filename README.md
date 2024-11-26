@@ -11,7 +11,7 @@ Existing advanced LSH methods leverage a plurality of novel techniques such as q
 
 An accurately data-aware distance estimator is as follows:
 
-$\mathbb{E}[\|o_1 - o_2\|_2^2] = \frac{\sum_{k=1}^d \lambda_k}{\sum_{k=1}^m \lambda_k} \mathbb{E}[\|{W_m}^T o_1 - {W_m}^T o_2\|_2^2]$
+$$\mathbb{E}[\|o_1 - o_2\|_2^2] = \frac{\sum_{k=1}^d \lambda_k}{\sum_{k=1}^m \lambda_k} \mathbb{E}[\|{W_m}^T o_1 - {W_m}^T o_2\|_2^2]$$
 
 Where $o_1, o_2$ are two points in the orginal space, $W_m \in \mathbb{R}^{d\times m}$ is obtained through the principal components analysis (PCA), $\lambda_k$ is the $k$-th largest eigenvalue. 
 
